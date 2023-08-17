@@ -6,7 +6,7 @@ const dbSettings = {
   host: config.host,
   user: config.user,
   password: config.password,
-  db_database: config.db_database
+  database: config.db_database
 }
 
 // Create the connection to database
