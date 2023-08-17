@@ -3,7 +3,6 @@ import mysql2 from 'mysql2'
 import config from '../config.js'
 
 const dbSettings = {
-  port: config.port,
   host: config.host,
   user: config.user,
   password: config.password,
